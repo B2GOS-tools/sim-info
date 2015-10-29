@@ -1,0 +1,1320 @@
+--------- beginning of /dev/log/system
+I/Vold    (  123): Vold 2.1 (the revenge) firing up
+D/Vold    (  123): Volume sdcard state changing -1 (Initializing) -> 0 (No-Media)
+D/Vold    (  123): Volume emmc state changing -1 (Initializing) -> 0 (No-Media)
+D/Vold    (  123): Volume sdcard state changing 0 (No-Media) -> 2 (Pending)
+D/Vold    (  123): Volume sdcard state changing 2 (Pending) -> 1 (Idle-Unmounted)
+W/Vold    (  123): Duplicate state (1)
+W/Vold    (  123): Duplicate state (1)
+W/Vold    (  123): Duplicate state (1)
+W/Vold    (  123): Duplicate state (1)
+W/Vold    (  123): Duplicate state (1)
+W/Vold    (  123): Duplicate state (1)
+W/Vold    (  123): Duplicate state (1)
+W/Vold    (  123): Duplicate state (1)
+W/Vold    (  123): Duplicate state (1)
+W/Vold    (  123): Duplicate state (1)
+W/Vold    (  123): Duplicate state (1)
+W/Vold    (  123): Duplicate state (1)
+W/Vold    (  123): Duplicate state (1)
+W/Vold    (  123): Duplicate state (1)
+D/Vold    (  123): Volume emmc state changing 0 (No-Media) -> 2 (Pending)
+D/Vold    (  123): Volume emmc state changing 2 (Pending) -> 1 (Idle-Unmounted)
+D/VoldCmdListener(  123): volume list
+D/VoldCmdListener(  123): volume mount sdcard
+I/Vold    (  123): /dev/block/vold/179:18 being considered for volume sdcard
+D/Vold    (  123): Volume sdcard state changing 1 (Idle-Unmounted) -> 3 (Checking)
+W/Vold    (  123): Skipping fs checks
+I/Vold    (  123): Device /dev/block/vold/179:18, target /mnt/sdcard mounted @ /mnt/secure/staging
+D/Vold    (  123): Volume sdcard state changing 3 (Checking) -> 4 (Mounted)
+D/VoldCmdListener(  123): volume mount emmc
+I/Vold    (  123): /dev/block/vold/179:33 being considered for volume emmc
+D/Vold    (  123): Volume emmc state changing 1 (Idle-Unmounted) -> 3 (Checking)
+W/Vold    (  123): Skipping fs checks
+I/Vold    (  123): Device /dev/block/vold/179:33, target /mnt/emmc mounted @ /mnt/secure/staging
+D/Vold    (  123): Volume emmc state changing 3 (Checking) -> 4 (Mounted)
+D/VoldCmdListener(  123): volume unmount sdcard force
+D/Vold    (  123): Volume sdcard state changing 4 (Mounted) -> 5 (Unmounting)
+I/Vold    (  123): /mnt/secure/staging/.android_secure sucessfully unmounted
+I/Vold    (  123): /mnt/secure/asec sucessfully unmounted
+I/Vold    (  123): /mnt/secure/staging sucessfully unmounted
+I/Vold    (  123): /mnt/sdcard unmounted sucessfully
+D/Vold    (  123): Volume sdcard state changing 5 (Unmounting) -> 1 (Idle-Unmounted)
+D/VoldCmdListener(  123): volume share sdcard ums
+D/Vold    (  123): Opened lunfile /sys/class/android_usb/android0/f_mass_storage/lun0/file
+D/Vold    (  123): Volume sdcard state changing 1 (Idle-Unmounted) -> 7 (Shared-Unmounted)
+D/VoldCmdListener(  123): volume unshare sdcard ums
+D/Vold    (  123): Opened lunfile /sys/class/android_usb/android0/f_mass_storage/lun0/file
+D/Vold    (  123): Volume sdcard state changing 7 (Shared-Unmounted) -> 1 (Idle-Unmounted)
+D/VoldCmdListener(  123): volume mount sdcard
+I/Vold    (  123): /dev/block/vold/179:18 being considered for volume sdcard
+D/Vold    (  123): Volume sdcard state changing 1 (Idle-Unmounted) -> 3 (Checking)
+W/Vold    (  123): Skipping fs checks
+I/Vold    (  123): Device /dev/block/vold/179:18, target /mnt/sdcard mounted @ /mnt/secure/staging
+D/Vold    (  123): Volume sdcard state changing 3 (Checking) -> 4 (Mounted)
+D/VoldCmdListener(  123): volume unmount sdcard force
+D/Vold    (  123): Volume sdcard state changing 4 (Mounted) -> 5 (Unmounting)
+I/Vold    (  123): /mnt/secure/staging/.android_secure sucessfully unmounted
+I/Vold    (  123): /mnt/secure/asec sucessfully unmounted
+I/Vold    (  123): /mnt/secure/staging sucessfully unmounted
+I/Vold    (  123): /mnt/sdcard unmounted sucessfully
+D/Vold    (  123): Volume sdcard state changing 5 (Unmounting) -> 1 (Idle-Unmounted)
+D/VoldCmdListener(  123): volume share sdcard ums
+D/Vold    (  123): Opened lunfile /sys/class/android_usb/android0/f_mass_storage/lun0/file
+D/Vold    (  123): Volume sdcard state changing 1 (Idle-Unmounted) -> 7 (Shared-Unmounted)
+D/VoldCmdListener(  123): volume unshare sdcard ums
+D/Vold    (  123): Opened lunfile /sys/class/android_usb/android0/f_mass_storage/lun0/file
+D/Vold    (  123): Volume sdcard state changing 7 (Shared-Unmounted) -> 1 (Idle-Unmounted)
+D/VoldCmdListener(  123): volume mount sdcard
+I/Vold    (  123): /dev/block/vold/179:18 being considered for volume sdcard
+D/Vold    (  123): Volume sdcard state changing 1 (Idle-Unmounted) -> 3 (Checking)
+W/Vold    (  123): Skipping fs checks
+I/Vold    (  123): Device /dev/block/vold/179:18, target /mnt/sdcard mounted @ /mnt/secure/staging
+D/Vold    (  123): Volume sdcard state changing 3 (Checking) -> 4 (Mounted)
+D/VoldCmdListener(  123): volume unmount sdcard force
+D/Vold    (  123): Volume sdcard state changing 4 (Mounted) -> 5 (Unmounting)
+I/Vold    (  123): /mnt/secure/staging/.android_secure sucessfully unmounted
+I/Vold    (  123): /mnt/secure/asec sucessfully unmounted
+I/Vold    (  123): /mnt/secure/staging sucessfully unmounted
+I/Vold    (  123): /mnt/sdcard unmounted sucessfully
+D/Vold    (  123): Volume sdcard state changing 5 (Unmounting) -> 1 (Idle-Unmounted)
+D/VoldCmdListener(  123): volume share sdcard ums
+D/Vold    (  123): Opened lunfile /sys/class/android_usb/android0/f_mass_storage/lun0/file
+D/Vold    (  123): Volume sdcard state changing 1 (Idle-Unmounted) -> 7 (Shared-Unmounted)
+D/VoldCmdListener(  123): volume unshare sdcard ums
+D/Vold    (  123): Opened lunfile /sys/class/android_usb/android0/f_mass_storage/lun0/file
+D/Vold    (  123): Volume sdcard state changing 7 (Shared-Unmounted) -> 1 (Idle-Unmounted)
+D/VoldCmdListener(  123): volume mount sdcard
+I/Vold    (  123): /dev/block/vold/179:18 being considered for volume sdcard
+D/Vold    (  123): Volume sdcard state changing 1 (Idle-Unmounted) -> 3 (Checking)
+W/Vold    (  123): Skipping fs checks
+I/Vold    (  123): Device /dev/block/vold/179:18, target /mnt/sdcard mounted @ /mnt/secure/staging
+D/Vold    (  123): Volume sdcard state changing 3 (Checking) -> 4 (Mounted)
+D/VoldCmdListener(  123): volume unmount sdcard force
+D/Vold    (  123): Volume sdcard state changing 4 (Mounted) -> 5 (Unmounting)
+I/Vold    (  123): /mnt/secure/staging/.android_secure sucessfully unmounted
+I/Vold    (  123): /mnt/secure/asec sucessfully unmounted
+I/Vold    (  123): /mnt/secure/staging sucessfully unmounted
+I/Vold    (  123): /mnt/sdcard unmounted sucessfully
+D/Vold    (  123): Volume sdcard state changing 5 (Unmounting) -> 1 (Idle-Unmounted)
+D/VoldCmdListener(  123): volume share sdcard ums
+D/Vold    (  123): Opened lunfile /sys/class/android_usb/android0/f_mass_storage/lun0/file
+D/Vold    (  123): Volume sdcard state changing 1 (Idle-Unmounted) -> 7 (Shared-Unmounted)
+D/VoldCmdListener(  123): volume unshare sdcard ums
+D/Vold    (  123): Opened lunfile /sys/class/android_usb/android0/f_mass_storage/lun0/file
+D/Vold    (  123): Volume sdcard state changing 7 (Shared-Unmounted) -> 1 (Idle-Unmounted)
+D/VoldCmdListener(  123): volume mount sdcard
+I/Vold    (  123): /dev/block/vold/179:18 being considered for volume sdcard
+D/Vold    (  123): Volume sdcard state changing 1 (Idle-Unmounted) -> 3 (Checking)
+W/Vold    (  123): Skipping fs checks
+I/Vold    (  123): Device /dev/block/vold/179:18, target /mnt/sdcard mounted @ /mnt/secure/staging
+D/Vold    (  123): Volume sdcard state changing 3 (Checking) -> 4 (Mounted)
+D/VoldCmdListener(  123): volume unmount sdcard force
+D/Vold    (  123): Volume sdcard state changing 4 (Mounted) -> 5 (Unmounting)
+I/Vold    (  123): /mnt/secure/staging/.android_secure sucessfully unmounted
+I/Vold    (  123): /mnt/secure/asec sucessfully unmounted
+I/Vold    (  123): /mnt/secure/staging sucessfully unmounted
+I/Vold    (  123): /mnt/sdcard unmounted sucessfully
+D/Vold    (  123): Volume sdcard state changing 5 (Unmounting) -> 1 (Idle-Unmounted)
+D/VoldCmdListener(  123): volume share sdcard ums
+D/Vold    (  123): Opened lunfile /sys/class/android_usb/android0/f_mass_storage/lun0/file
+D/Vold    (  123): Volume sdcard state changing 1 (Idle-Unmounted) -> 7 (Shared-Unmounted)
+D/VoldCmdListener(  123): volume unshare sdcard ums
+D/Vold    (  123): Opened lunfile /sys/class/android_usb/android0/f_mass_storage/lun0/file
+D/Vold    (  123): Volume sdcard state changing 7 (Shared-Unmounted) -> 1 (Idle-Unmounted)
+D/VoldCmdListener(  123): volume mount sdcard
+I/Vold    (  123): /dev/block/vold/179:18 being considered for volume sdcard
+D/Vold    (  123): Volume sdcard state changing 1 (Idle-Unmounted) -> 3 (Checking)
+W/Vold    (  123): Skipping fs checks
+I/Vold    (  123): Device /dev/block/vold/179:18, target /mnt/sdcard mounted @ /mnt/secure/staging
+D/Vold    (  123): Volume sdcard state changing 3 (Checking) -> 4 (Mounted)
+D/VoldCmdListener(  123): volume unmount sdcard force
+D/Vold    (  123): Volume sdcard state changing 4 (Mounted) -> 5 (Unmounting)
+I/Vold    (  123): /mnt/secure/staging/.android_secure sucessfully unmounted
+I/Vold    (  123): /mnt/secure/asec sucessfully unmounted
+I/Vold    (  123): /mnt/secure/staging sucessfully unmounted
+I/Vold    (  123): /mnt/sdcard unmounted sucessfully
+D/Vold    (  123): Volume sdcard state changing 5 (Unmounting) -> 1 (Idle-Unmounted)
+D/VoldCmdListener(  123): volume share sdcard ums
+D/Vold    (  123): Opened lunfile /sys/class/android_usb/android0/f_mass_storage/lun0/file
+D/Vold    (  123): Volume sdcard state changing 1 (Idle-Unmounted) -> 7 (Shared-Unmounted)
+--------- beginning of /dev/log/main
+D/wpa_supplicant(  422): wlan0: Event PMKID_CANDIDATE (6) received
+D/wpa_supplicant(  422): wlan0: RSN: PMKID candidate event - bssid=68:b6:fc:56:1e:58 index=0 preauth=0
+D/wpa_supplicant(  422): RSN: Ignored PMKID candidate without preauth flag
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+D/wpa_supplicant(  422): nl80211: survey data missing!
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+D/wpa_supplicant(  422): nl80211: survey data missing!
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+D/wpa_supplicant(  422): nl80211: survey data missing!
+I/Gecko   (  126): -*- WifiWorker component: Firing connectioninfoupdate: ({signalStrength:-58, relSignalStrength:93, linkSpeed:72, ipAddress:"192.168.1.11"})
+D/wpa_supplicant(  422): RTM_NEWLINK: operstate=1 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+D/wpa_supplicant(  422): RTM_NEWLINK, IFLA_IFNAME: Interface 'wlan0' added
+D/wpa_supplicant(  422): nl80211: if_removed already cleared - ignore event
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+D/wpa_supplicant(  422): nl80211: survey data missing!
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+D/wpa_supplicant(  422): nl80211: survey data missing!
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+D/wpa_supplicant(  422): nl80211: survey data missing!
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+D/wpa_supplicant(  422): nl80211: survey data missing!
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+D/wpa_supplicant(  422): nl80211: survey data missing!
+D/wpa_supplicant(  422): RTM_NEWLINK: operstate=1 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+D/wpa_supplicant(  422): RTM_NEWLINK, IFLA_IFNAME: Interface 'wlan0' added
+D/wpa_supplicant(  422): nl80211: if_removed already cleared - ignore event
+D/wpa_supplicant(  422): nl80211: survey data missing!
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+D/wpa_supplicant(  422): nl80211: survey data missing!
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+D/wpa_supplicant(  422): nl80211: survey data missing!
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+D/wpa_supplicant(  422): nl80211: survey data missing!
+D/wpa_supplicant(  422): nl80211: Event message available
+D/wpa_supplicant(  422): wlan0: Event PMKID_CANDIDATE (6) received
+D/wpa_supplicant(  422): wlan0: RSN: PMKID candidate event - bssid=68:b6:fc:56:1e:58 index=0 preauth=0
+D/wpa_supplicant(  422): RSN: Ignored PMKID candidate without preauth flag
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+D/wpa_supplicant(  422): nl80211: survey data missing!
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+D/wpa_supplicant(  422): nl80211: survey data missing!
+I/GeckoDump(  126): [system] [HierarchyManager][6262.522] mozChromeEvent
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6262.534] open with immediate
+I/GeckoDump(  126): [system] [HierarchyManager][6262.536] lockscreenwindowmanager-activated
+I/GeckoDump(  126): [system] [HierarchyManager][6262.537] handling lockscreenwindowmanager-activated
+I/GeckoDump(  126): [system] [HierarchyManager][6262.537] LockScreenWindowManager is becoming active now.
+I/GeckoDump(  126): [system] [HierarchyManager][6262.537] top most is the same.,LockScreenWindowManager
+I/GeckoDump(  126): [system] [LockScreenInputWindow][app://lockscreen.gaiamobile.org][LockScreenInputWindow_3][6262.732] close with slide-to-bottom
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6262.733] request RESIZE...active? ,true
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6262.733]  will resize... 
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6262.733] force RESIZE...
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6262.734] publishing internal event: withoutkeyboard
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6262.735] publishing internal event: resize
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6262.736] publishing external event: resize
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6262.737] W:,360,H:,640
+I/GeckoDump(  126): [system] [HierarchyManager][6262.750] mozChromeEvent
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=22): 44 52 49 56 45 52 20 53 45 54 53 55 53 50 45 4e 44 4f 50 54 20 31
+D/wpa_supplicant(  422): wpa_driver_nl80211_driver_cmd: failed to issue private commands
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=18): 44 52 49 56 45 52 20 50 4f 57 45 52 4d 4f 44 45 20 31
+I/GeckoDump(  126): [system] [HierarchyManager][6263.018] mozChromeEvent
+D/wpa_supplicant(  422): RTM_NEWLINK: operstate=1 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+D/wpa_supplicant(  422): RTM_NEWLINK, IFLA_IFNAME: Interface 'wlan0' added
+D/wpa_supplicant(  422): nl80211: if_removed already cleared - ignore event
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+D/wpa_supplicant(  422): nl80211: survey data missing!
+I/GeckoDump(  126): [system] [AppWindow][Settings][AppWindow_10][6264.270] set visibility -> ,true
+I/GeckoDump(  126): [system] [AppWindow][Settings][AppWindow_10][6264.271] setActive on browser element:true
+I/GeckoDump(  126): [system] [HierarchyManager][6264.517] getting top most...,[object Object]
+I/GeckoDump(  126): [system] [AppWindow][Settings][AppWindow_10][6264.518] before showing frame
+I/GeckoDump(  126): [system] [AppWindow][Settings][AppWindow_10][6264.520] setVisible on browser element:true
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6264.548] close with fade-out
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6264.549] opened,closing,::,close
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6264.550] timer to ensure closed does occur.
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6264.551] publishing internal event: closing
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6264.552] publishing external event: closing
+I/GeckoDump(  126): [system] [AppWindow][Settings][AppWindow_10][6264.555]  locking screen orientation to default
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6264.625] publishing internal event: willclose
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6264.626] publishing external event: willclose
+I/GeckoDump(  126): [system] [HierarchyManager][6264.633] lockscreenwindowmanager-deactivated
+I/GeckoDump(  126): [system] [HierarchyManager][6264.633] handling lockscreenwindowmanager-deactivated
+I/GeckoDump(  126): [system] [HierarchyManager][6264.634] AppWindowManager is becoming active now.
+I/GeckoDump(  126): [system] [HierarchyManager][6264.634] last top most is LockScreenWindowManager
+I/GeckoDump(  126): [system] [HierarchyManager][6264.634] next top most is AppWindowManager
+I/GeckoDump(  126): [system] [AppWindow][Settings][AppWindow_10][6264.834] Settings:AppWindow_10 is setting nfc active to: true
+I/GeckoDump(  126): [system] [HierarchyManager][6264.835] publishing: hierarchychanged
+I/GeckoDump(  126): [system] [SimLockManager][6264.836] handling lockscreen-request-unlock
+I/Gecko   (  126): -*- WifiWorker component: Firing connectioninfoupdate: ({signalStrength:-55, relSignalStrength:100, linkSpeed:72, ipAddress:"192.168.1.11"})
+I/GeckoDump(  126): [system] [AppWindow][Settings][AppWindow_10][6264.971]  Handling mozbrowservisibilitychange event...
+I/GeckoDump(  126): [system] [AppWindow][Settings][AppWindow_10][6264.971] publishing internal event: foreground
+I/GeckoDump(  126): [system] [AppWindow][Settings][AppWindow_10][6264.972] publishing external event: foreground
+I/GeckoDump(  126): [system] [HierarchyManager][6264.988] mozChromeEvent
+I/GeckoDump(  126): [system] [HierarchyManager][6265.000] mozChromeEvent
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6265.014] publishing internal event: closingtimeout
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6265.016] closing,closed,::,timeout
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6265.020] publishing internal event: closed
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6265.021]  Handling _closed event...
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6265.022] set visibility -> ,false
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6265.023] before hiding frame
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6265.024] setVisible on browser element:false
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6265.026] publishing external event: closed
+I/GeckoDump(  126): [system] [HierarchyManager][6265.040] windowclosed
+I/GeckoDump(  126): [system] [HierarchyManager][6265.042] publishing: hierarchytopmostwindowchanged
+I/GeckoDump(  126): [system] [HierarchyManager][6265.043] getting top most...,[object Object]
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6265.090] publishing internal event: close
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6265.091] publishing external event: close
+I/GeckoDump(  126): [system] [LockScreenInputWindow][app://lockscreen.gaiamobile.org][LockScreenInputWindow_3][6265.098] close with slide-to-bottom
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6265.099] request RESIZE...active? ,false
+I/GeckoDump(  634): [findmydevice] got wake up request
+I/GeckoDump(  634): [findmydevice] unlocked
+I/AutoMounter(  126): Changing mode from 'DisableWhenUnplugged' to 'Enable-UMS'
+I/AutoMounter(  126): UpdateState: ums:A1C1E1 mtp:A1C0E0 mode:1 usb:1 tryToShare:1 state:UMS_CONFIGURED
+I/AutoMounter(  126): UpdateState: Volume sdcard is Shared and inserted
+I/AutoMounter(  126): UpdateState: Volume emmc is Mounted and inserted @ /mnt/emmc gen 2 locked 0 sharing dis
+I/GeckoDump(  126): [system] [HierarchyManager][6266.689] home
+I/GeckoDump(  126): [system] [HierarchyManager][6266.689] handover home to AppWindowManager
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6266.690] ensuring homescreen...,
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6266.690] ensuring homescreen...,
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6266.691] request RESIZE...
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6266.691]  will resize... 
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6266.691] force RESIZE...
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6266.692] publishing internal event: withoutkeyboard
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6266.695] requesting to open
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6266.697] set visibility -> ,true
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6266.697] setActive on browser element:true
+I/GeckoDump(  126): [system] [HierarchyManager][6266.805] getting top most...,[object Object]
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6266.806] before showing frame
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6266.807] setVisible on browser element:true
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6266.812]  Handling mozbrowserlocationchange event...
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6266.813] publishing internal event: locationchange
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6266.814] publishing external event: locationchange
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6266.827]  Handling mozbrowservisibilitychange event...
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6266.828] publishing internal event: foreground
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6266.829] publishing external event: foreground
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6266.850]  Handling mozbrowserasyncscroll event...
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6267.012]  Handling mozbrowserasyncscroll event...
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6267.196]  nextpaint is timeouted.
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6267.199] request RESIZE...
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6267.199]  will resize... 
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6267.199] force RESIZE...
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6267.200] publishing internal event: withoutkeyboard
+I/GeckoDump(  126): [system] [HierarchyManager][6267.201] appwindowmanager-activated
+I/GeckoDump(  126): [system] [HierarchyManager][6267.202] handling appwindowmanager-activated
+I/GeckoDump(  126): [system] [HierarchyManager][6267.203] AppWindowManager is becoming active now.
+I/GeckoDump(  126): [system] [HierarchyManager][6267.203] top most is the same.,AppWindowManager
+I/GeckoDump(  126): [system] [AppWindow][Settings][AppWindow_10][6267.204] portrait-primary
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6267.205] open with zoom-out
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6267.206] closed,opening,::,open
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6267.208] timer to ensure opened does occur.
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6267.210] appWindow homescreen render scrollable transition-opening zoom-out
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6267.211] publishing internal event: opening
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6267.212]  fade in <<<<< 
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6267.213] publishing internal event: requestforeground
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6267.214] publishing external event: requestforeground
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6267.215] set visibility -> ,true
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6267.216] setActive on browser element:true
+I/GeckoDump(  126): [system] [HierarchyManager][6267.218] getting top most...,[object Object]
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6267.219] before showing frame
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6267.223]  locking screen orientation to portrait-primary
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6267.224] handling _opening
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6267.225] aria-hidden on browser element:false
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6267.227] publishing external event: opening
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6267.233] publishing internal event: willopen
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6267.234] publishing external event: willopen
+I/GeckoDump(  126): [system] [AppWindow][Settings][AppWindow_10][6267.235] close with reduce
+I/GeckoDump(  126): [system] [AppWindow][Settings][AppWindow_10][6267.240] opened,closing,::,close
+I/GeckoDump(  126): [system] [AppWindow][Settings][AppWindow_10][6267.242] timer to ensure closed does occur.
+I/GeckoDump(  126): [system] [AppWindow][Settings][AppWindow_10][6267.247] publishing internal event: closing
+I/GeckoDump(  126): [system] [AppWindow][Settings][AppWindow_10][6267.248] handling _closing
+I/GeckoDump(  126): [system] [AppWindow][Settings][AppWindow_10][6267.250] publishing external event: closing
+I/GeckoDump(  126): [system] [AppWindow][Settings][AppWindow_10][6267.252] publishing internal event: willclose
+I/GeckoDump(  126): [system] [AppWindow][Settings][AppWindow_10][6267.261] publishing external event: willclose
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6267.560] publishing internal event: openingtimeout
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6267.561] opening,opened,::,timeout
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6267.568] publishing internal event: opened
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6267.582] publishing internal event: requestforeground
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6267.584] publishing external event: requestforeground
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6267.586] set visibility -> ,true
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6267.587] setActive on browser element:true
+I/GeckoDump(  126): [system] [HierarchyManager][6267.588] getting top most...,[object Object]
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6267.588] before showing frame
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6267.591]  locking screen orientation to portrait-primary
+I/GeckoDump(  126): [system] [HierarchyManager][6267.594] getting top most...,[object Object]
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6267.594] focusing this app.
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6267.628] Tilescreen:homescreen is setting nfc active to: true
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6267.632] publishing internal event: loadtime
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6267.633] publishing external event: loadtime{"time":419,"type":"w","src":"app://889a7ac3-752e-434e-8489-ca4bab5326e6/index.html#1446127374111"}
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6267.635] publishing external event: opened
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6267.638] request RESIZE...
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6267.639]  will resize... 
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6267.639] force RESIZE...
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6267.640] publishing internal event: withoutkeyboard
+I/GeckoDump(  126): [system] [HierarchyManager][6267.643] appwindowmanager-activated
+I/GeckoDump(  126): [system] [HierarchyManager][6267.644] handling appwindowmanager-activated
+I/GeckoDump(  126): [system] [HierarchyManager][6267.645] AppWindowManager is becoming active now.
+I/GeckoDump(  126): [system] [HierarchyManager][6267.646] top most is the same.,AppWindowManager
+I/GeckoDump(  126): [system] [HierarchyManager][6267.655] windowopened
+I/GeckoDump(  126): [system] [HierarchyManager][6267.658] publishing: hierarchytopmostwindowchanged
+I/GeckoDump(  126): [system] [HierarchyManager][6267.658] getting top most...,[object Object]
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6267.696] publishing internal event: open
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6267.697] publishing external event: open
+I/GeckoDump(  126): [system] [AppWindow][Settings][AppWindow_10][6267.814] publishing internal event: closingtimeout
+I/GeckoDump(  126): [system] [AppWindow][Settings][AppWindow_10][6267.816] closing,closed,::,timeout
+I/GeckoDump(  126): [system] [AppWindow][Settings][AppWindow_10][6267.819] publishing internal event: closed
+I/GeckoDump(  126): [system] [AppWindow][Settings][AppWindow_10][6267.820]  Handling _closed event...
+D/skia    ( 2272): START /proc/cpuinfo:
+D/skia    ( 2272): Processor	: ARMv7 Processor rev 1 (v7l)
+D/skia    ( 2272): processor	: 0
+D/skia    ( 2272): BogoMIPS	: 573.30
+D/skia    ( 2272): 
+D/skia    ( 2272): processor	: 1
+D/skia    ( 2272): BogoMIPS	: 573.30
+D/skia    ( 2272): 
+D/skia    ( 2272): Features	: swp half thumb fastmult vfp edsp thumbee neon vfpv3 tls vfpv4 
+D/skia    ( 2272): CPU implementer	: 0x41
+D/skia    ( 2272): CPU architecture: 7
+D/skia    ( 2272): CPU variant	: 0x0
+D/skia    ( 2272): CPU part	: 0xc05
+D/skia    ( 2272): CPU revision	: 1
+D/skia    ( 2272): 
+D/skia    ( 2272): Hardware	: QCT MSM8625 SURF
+D/skia    ( 2272): Revision	: 0000
+D/skia    ( 2272): Serial		: 0000000000000000
+D/skia    ( 2272): 
+D/skia    ( 2272): END /proc/cpuinfo
+D/skia    ( 2272): Device supports ARM NEON instructions!
+I/GeckoDump(  126): [system] [AppWindow][Settings][AppWindow_10][6267.829] set visibility -> ,false
+I/GeckoDump(  126): [system] [AppWindow][Settings][AppWindow_10][6267.830] setActive on browser element:false
+I/GeckoDump(  126): [system] [HierarchyManager][6268.016] getting top most...,[object Object]
+I/GeckoDump(  126): [system] [AppWindow][Settings][AppWindow_10][6268.017] before hiding frame
+I/GeckoDump(  126): [system] [AppWindow][Settings][AppWindow_10][6268.017] setVisible on browser element:false
+I/GeckoDump(  126): [system] [AppWindow][Settings][AppWindow_10][6268.018] Settings:AppWindow_10 is setting nfc active to: false
+I/GeckoDump(  126): [system] [AppWindow][Settings][AppWindow_10][6268.021] publishing external event: closed
+I/GeckoDump(  126): [system] [HierarchyManager][6268.022] windowclosed
+I/GeckoDump(  126): [system] [AppWindow][Settings][AppWindow_10][6268.024] publishing internal event: close
+I/GeckoDump(  126): [system] [AppWindow][Settings][AppWindow_10][6268.025] publishing external event: close
+I/GeckoDump(  126): [system] [HierarchyManager][6268.037] mozChromeEvent
+I/GeckoDump(  126): [system] [HierarchyManager][6268.074] mozChromeEvent
+I/GeckoDump(  126): [system] [AppWindow][Settings][AppWindow_10][6268.143] getScreenshot succeed!
+I/GeckoDump(  126): [system] [AppWindow][Settings][AppWindow_10][6268.144] get screenshot success!!!!
+I/GeckoDump(  126): [system] [AppWindow][Settings][AppWindow_10][6268.224]  Handling mozbrowservisibilitychange event...
+I/GeckoDump(  126): [system] [AppWindow][Settings][AppWindow_10][6268.228] publishing internal event: background
+I/GeckoDump(  126): [system] [AppWindow][Settings][AppWindow_10][6268.229] publishing external event: background
+I/GeckoDump(  126): [system] [HierarchyManager][6268.234] mozChromeEvent
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+D/wpa_supplicant(  422): nl80211: survey data missing!
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+D/wpa_supplicant(  422): nl80211: survey data missing!
+D/wpa_supplicant(  422): RTM_NEWLINK: operstate=1 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+D/wpa_supplicant(  422): RTM_NEWLINK, IFLA_IFNAME: Interface 'wlan0' added
+D/wpa_supplicant(  422): nl80211: if_removed already cleared - ignore event
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+D/wpa_supplicant(  422): nl80211: survey data missing!
+I/Gecko   (  126): -*- WifiWorker component: Firing connectioninfoupdate: ({signalStrength:-58, relSignalStrength:93, linkSpeed:72, ipAddress:"192.168.1.11"})
+I/Gecko   (  126): -*- WifiWorker component: Firing connectioninfoupdate: ({signalStrength:-55, relSignalStrength:100, linkSpeed:72, ipAddress:"192.168.1.11"})
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+D/wpa_supplicant(  422): nl80211: survey data missing!
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+D/wpa_supplicant(  422): nl80211: survey data missing!
+D/wpa_supplicant(  422): RTM_NEWLINK: operstate=1 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+D/wpa_supplicant(  422): RTM_NEWLINK, IFLA_IFNAME: Interface 'wlan0' added
+D/wpa_supplicant(  422): nl80211: if_removed already cleared - ignore event
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+D/wpa_supplicant(  422): nl80211: survey data missing!
+I/Gecko   (  126): -*- WifiWorker component: Firing connectioninfoupdate: ({signalStrength:-57, relSignalStrength:95, linkSpeed:72, ipAddress:"192.168.1.11"})
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+D/wpa_supplicant(  422): nl80211: survey data missing!
+I/Gecko   (  126): -*- WifiWorker component: Firing connectioninfoupdate: ({signalStrength:-55, relSignalStrength:100, linkSpeed:72, ipAddress:"192.168.1.11"})
+D/wpa_supplicant(  422): RTM_NEWLINK: operstate=1 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+D/wpa_supplicant(  422): RTM_NEWLINK, IFLA_IFNAME: Interface 'wlan0' added
+D/wpa_supplicant(  422): nl80211: if_removed already cleared - ignore event
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+D/wpa_supplicant(  422): nl80211: survey data missing!
+I/Gecko   (  126): -*- WifiWorker component: Firing connectioninfoupdate: ({signalStrength:-59, relSignalStrength:91, linkSpeed:72, ipAddress:"192.168.1.11"})
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+D/wpa_supplicant(  422): nl80211: survey data missing!
+I/Gecko   (  126): -*- WifiWorker component: Firing connectioninfoupdate: ({signalStrength:-55, relSignalStrength:100, linkSpeed:72, ipAddress:"192.168.1.11"})
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+D/wpa_supplicant(  422): nl80211: survey data missing!
+D/wpa_supplicant(  422): nl80211: Event message available
+D/wpa_supplicant(  422): wlan0: Event PMKID_CANDIDATE (6) received
+D/wpa_supplicant(  422): wlan0: RSN: PMKID candidate event - bssid=68:b6:fc:56:1e:58 index=0 preauth=0
+D/wpa_supplicant(  422): RSN: Ignored PMKID candidate without preauth flag
+D/wpa_supplicant(  422): RTM_NEWLINK: operstate=1 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+D/wpa_supplicant(  422): RTM_NEWLINK, IFLA_IFNAME: Interface 'wlan0' added
+D/wpa_supplicant(  422): nl80211: if_removed already cleared - ignore event
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+D/wpa_supplicant(  422): nl80211: survey data missing!
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6321.245]  Handling mozbrowserasyncscroll event...
+I/GeckoDump(  126): [system] [HierarchyManager][6321.291] mozChromeEvent
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6321.313] request RESIZE...active? ,false
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6321.316] requesting to open
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6321.316] loaded yet
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6321.356] request RESIZE...active? ,false
+I/GeckoDump(  126): [system] [HierarchyManager][6321.357] appwindowmanager-activated
+I/GeckoDump(  126): [system] [HierarchyManager][6321.357] handling appwindowmanager-activated
+I/GeckoDump(  126): [system] [HierarchyManager][6321.358] AppWindowManager is becoming active now.
+I/GeckoDump(  126): [system] [HierarchyManager][6321.358] top most is the same.,AppWindowManager
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6321.359] portrait-primary
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6321.360] open with enlarge
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6321.360] closed,opening,::,open
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6321.361] timer to ensure opened does occur.
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6321.362] appWindow render scrollable overlay transition-opening enlarge
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6321.364] publishing internal event: opening
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6321.366]  fade in <<<<< 
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6321.366] publishing internal event: requestforeground
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6321.366] publishing external event: requestforeground
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6321.367] set visibility -> ,true
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6321.368] setActive on browser element:true
+I/GeckoDump(  126): [system] [HierarchyManager][6321.456] getting top most...,[object Object]
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6321.456] before showing frame
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6321.457] setVisible on browser element:true
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6321.462] trying wait for full repaint by screenshot enforcing..
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6321.467] handling _opening
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6321.468] publishing external event: opening
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6321.471] request RESIZE...active? ,true
+I/GeckoDump(  126): [system] [HierarchyManager][6321.472] appwindowmanager-activated
+I/GeckoDump(  126): [system] [HierarchyManager][6321.473] handling appwindowmanager-activated
+I/GeckoDump(  126): [system] [HierarchyManager][6321.476] AppWindowManager is becoming active now.
+I/GeckoDump(  126): [system] [HierarchyManager][6321.477] top most is the same.,AppWindowManager
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6321.479] publishing internal event: willopen
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6321.480] publishing external event: willopen
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6321.482] close with zoom-in
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6321.482] opened,closing,::,close
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6321.486] timer to ensure closed does occur.
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6321.487] publishing internal event: closing
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6321.488] handling _closing
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6321.489] aria-hidden on browser element:false
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6321.490] publishing external event: closing
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6321.491] publishing internal event: willclose
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6321.492] publishing external event: willclose
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6321.627]  Handling mozbrowservisibilitychange event...
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6321.628] publishing internal event: foreground
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6321.629] publishing external event: foreground
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6321.727] getScreenshot succeed!
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6321.727] get screenshot success!!!!
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6321.837] publishing internal event: closingtimeout
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6321.838] closing,closed,::,timeout
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6321.845] publishing internal event: closed
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6321.846]  Handling _closed event...
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6321.851] set visibility -> ,false
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6321.853] setActive on browser element:false
+I/GeckoDump(  126): [system] [HierarchyManager][6321.926] getting top most...,[object Object]
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6321.927] before hiding frame
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6321.928] setVisible on browser element:false
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6321.938] Tilescreen:homescreen is setting nfc active to: false
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6321.943] publishing external event: closed
+I/GeckoDump(  126): [system] [HierarchyManager][6321.945] windowclosed
+I/GeckoDump(  126): [system] [HierarchyManager][6321.948] publishing: hierarchytopmostwindowchanged
+I/GeckoDump(  126): [system] [HierarchyManager][6321.949] getting top most...,[object Object]
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6321.951] SIM Info:AppWindow_6 is setting nfc active to: true
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6322.034] publishing internal event: close
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6322.035] publishing external event: close
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6322.043] openApp has been ENDED!
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6322.044] opening,opened,::,complete
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6322.047] publishing internal event: opened
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6322.050] publishing internal event: requestforeground
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6322.052] publishing external event: requestforeground
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6322.055] set visibility -> ,true
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6322.057] setActive on browser element:true
+I/GeckoDump(  126): [system] [HierarchyManager][6322.064] getting top most...,[object Object]
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6322.064] before showing frame
+E/Sensors (  126): sensor activate  handle 0 enable 1 drv 0
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6322.071]  Unlocking screen orientation..
+I/GeckoDump(  126): [system] [HierarchyManager][6322.073] getting top most...,[object Object]
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6322.074] focusing this app.
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6322.119] publishing internal event: loadtime
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6322.121] publishing external event: loadtime{"time":754,"type":"w","src":"app://imei.leandro.org/index.html"}
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6322.129] publishing external event: opened
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6322.141] request RESIZE...active? ,true
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6322.143]  will resize... 
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6322.143] force RESIZE...
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6322.144] publishing internal event: withoutkeyboard
+I/GeckoDump(  126): [system] [HierarchyManager][6322.148] appwindowmanager-activated
+I/GeckoDump(  126): [system] [HierarchyManager][6322.148] handling appwindowmanager-activated
+I/GeckoDump(  126): [system] [HierarchyManager][6322.150] AppWindowManager is becoming active now.
+I/GeckoDump(  126): [system] [HierarchyManager][6322.150] top most is the same.,AppWindowManager
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6322.152]  fade out >>>> 
+I/GeckoDump(  126): [system] [SimLockManager][6322.153] handling appopened
+I/GeckoDump(  126): [system] [HierarchyManager][6322.203] windowopened
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6322.204] publishing internal event: open
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6322.205] publishing external event: open
+I/GeckoDump(  126): [system] [HierarchyManager][6322.323] mozChromeEvent
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6322.327]  Handling mozbrowservisibilitychange event...
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6322.327] publishing internal event: background
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6322.328] publishing external event: background
+I/GeckoDump(  126): [system] [HierarchyManager][6322.338] mozChromeEvent
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6322.524] getScreenshot succeed!
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6322.525] get screenshot success!!!!
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+D/wpa_supplicant(  422): nl80211: survey data missing!
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6325.052]  Handling mozbrowserasyncscroll event...
+I/GeckoDump(  126): [system] [HierarchyManager][6325.103] mozChromeEvent
+W/GeckoConsole(  126): [JavaScript Error: "error occurred while processing 'listTabs: TypeError: browser.getTabBrowser is not a function
+W/GeckoConsole(  126): Stack: BrowserTabList.prototype.getList@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/webbrowser.js:324:1
+W/GeckoConsole(  126): RootActor.prototype.onListTabs@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/root.js:281:12
+W/GeckoConsole(  126): DSC_onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/main.js:1422:15
+W/GeckoConsole(  126): DebuggerTransport.prototype._onJSONObjectReady/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/transport/transport.js:461:9
+W/GeckoConsole(  126): makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:82:14
+W/GeckoConsole(  126): makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/DevToolsUtils.js:82:14
+W/GeckoConsole(  126): Line: 324, column: 0" {file: "resource://gre/modules/commonjs/toolkit/l
+I/GeckoDump(  126): [system] [HierarchyManager][6326.249] systemdialogmanager-activated
+I/GeckoDump(  126): [system] [HierarchyManager][6326.249] handling systemdialogmanager-activated
+I/GeckoDump(  126): [system] [HierarchyManager][6326.250] SystemDialogManager is becoming active now.
+I/GeckoDump(  126): [system] [HierarchyManager][6326.250] last top most is AppWindowManager
+I/GeckoDump(  126): [system] [HierarchyManager][6326.250] next top most is SystemDialogManager
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6326.260] SIM Info:AppWindow_6 is setting nfc active to: false
+I/GeckoDump(  126): [system] [HierarchyManager][6326.262] publishing: hierarchychanged
+I/GeckoDump(  126): [system] [HierarchyManager][6326.487] mozChromeEvent
+I/GeckoDump(  126): [system] [HierarchyManager][6326.491] mozChromeEvent
+I/Gecko   (  126): Performance warning: Async animation disabled because frame size (720, 130) is bigger than the viewport (405, 720) or the visual rectangle (720, 130) is larger than the max allowable value (17895698) [section]
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+D/wpa_supplicant(  422): nl80211: survey data missing!
+I/GeckoDump(  126): [system] [HierarchyManager][6331.442] mozChromeEvent
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6331.476] setAsActiveInput: app://keyboard.gaiamobile.org/manifest.webapp/index.html#es, active: true
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6331.476] set visibility -> ,true
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6331.477] setActive on browser element:true
+I/GeckoDump(  126): [system] [HierarchyManager][6331.576] getting top most...,[object Object]
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6331.576] before showing frame
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6331.577] setVisible on browser element:true
+I/GeckoDump(  126): [system] [HierarchyManager][6331.588] mozChromeEvent
+I/GeckoDump(  126): [system] [HierarchyManager][6331.590] handover mozChromeEvent to SystemDialogManager
+I/GeckoDump(  126): [system] [HierarchyManager][6331.591] handover mozChromeEvent to AppWindowManager
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6331.591] publishing internal event: inputmethod-contextchange
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6331.592] handling _inputmethod-contextchange
+W/Built-in Keyboard(  607): Content JS WARN: LayoutManager:No space key found. No special keys will be added. 
+W/Built-in Keyboard(  607):     at LayoutManager.prototype._updateCurrentPage (app://keyboard.gaiamobile.org/gaia_build_defer_index.js:69:548)
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6332.067]  Handling mozbrowserresize event...
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6332.067] publishing internal event: ready
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6332.068]  Handling _ready event...
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6332.068] open with slide-from-bottom
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6332.068] closed,opening,::,open
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6332.069] timer to ensure opened does occur.
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6332.072] inputWindow top-most transition-opening slide-from-bottom
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6332.073] publishing internal event: opening
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6332.074]  fade in <<<<< 
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6332.075] publishing internal event: requestforeground
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6332.076] publishing external event: requestforeground
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6332.078] publishing external event: opening
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6332.079] publishing internal event: willopen
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6332.079] publishing external event: willopen
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6332.080] publishing external event: ready
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6332.539] kbShow has been ENDED!
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6332.540] opening,opened,::,complete
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6332.542] publishing internal event: opened
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6332.544] publishing internal event: requestforeground
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6332.545] publishing external event: requestforeground
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6332.547] publishing external event: opened
+I/GeckoDump(  126): [system] [HierarchyManager][6332.553] system-resize
+I/GeckoDump(  126): [system] [HierarchyManager][6332.554] handover system-resize to SystemDialogManager
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6332.612]  fade out >>>> 
+I/GeckoDump(  126): [system] [HierarchyManager][6332.613] windowopened
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6332.614] publishing internal event: open
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6332.614] publishing external event: open
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+D/wpa_supplicant(  422): nl80211: survey data missing!
+I/Gecko   (  126): Performance warning: Async animation disabled because frame size (720, 40) is bigger than the viewport (405, 720) or the visual rectangle (720, 40) is larger than the max allowable value (17895698) [div with id 'msb']
+I/GeckoDump(  126): [system] [HierarchyManager][6338.888] mozChromeEvent
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6338.904] close with slide-to-bottom
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6338.905] opened,closing,::,close
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6338.909] timer to ensure closed does occur.
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6338.912] publishing internal event: closing
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6338.913] publishing external event: closing
+I/GeckoDump(  126): [system] [HierarchyManager][6338.918] system-resize
+I/GeckoDump(  126): [system] [HierarchyManager][6338.919] handover system-resize to SystemDialogManager
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6338.991] publishing internal event: willclose
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6338.992] publishing external event: willclose
+I/GeckoDump(  126): [system] [HierarchyManager][6338.995] mozChromeEvent
+I/GeckoDump(  126): [system] [HierarchyManager][6338.999] handover mozChromeEvent to SystemDialogManager
+I/Gecko   (  126): -*- SettingsRequestManager: No keys to change entered!
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+D/wpa_supplicant(  422): nl80211: survey data missing!
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6339.535] kbHide has been ENDED!
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6339.536] closing,closed,::,complete
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6339.539] publishing internal event: closed
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6339.542] publishing external event: closed
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6339.544] setAsActiveInput: app://keyboard.gaiamobile.org/manifest.webapp/index.html#es, active: false
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6339.544] set visibility -> ,false
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6339.545] setActive on browser element:false
+I/GeckoDump(  126): [system] [HierarchyManager][6339.797] getting top most...,[object Object]
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6339.798] before hiding frame
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6339.799] setVisible on browser element:false
+I/GeckoDump(  126): [system] [HierarchyManager][6339.812] windowclosed
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6339.815] publishing internal event: close
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6339.816] publishing external event: close
+W/GeckoConsole(  126): [JavaScript Error: "uncaught exception: 2147549183"]
+I/Gecko   (  126): 1446127448070	Hawk	ERROR	Unhandled exception processing response:TypeError: "toString" is read-only (resource://services-common/hawkclient.js:125:4) JS Stack trace: this.HawkClient.prototype._constructError@hawkclient.js:125:5 < _onComplete@hawkclient.js:259:32 < onComplete@hawkclient.js:270:9 < onStopRequest@rest.js:476:5
+I/Gecko   (  126): 1446127448072	MobileId	ERROR	MobileIdentityClient -> Error TypeError: "toString" is read-only (resource://services-common/hawkclient.js:125:4) JS Stack trace: this.HawkClient.prototype._constructError@hawkclient.js:125:5 < _onComplete@hawkclient.js:259:32 < onComplete@hawkclient.js:270:9 < onStopRequest@rest.js:476:5
+I/Gecko   (  126): *************************
+I/Gecko   (  126): A coding exception was thrown in a Promise rejection callback.
+I/Gecko   (  126): See https://developer.mozilla.org/Mozilla/JavaScript_code_modules/Promise.jsm/Promise
+I/Gecko   (  126): 
+I/Gecko   (  126): Full message: TypeError: this.verificationCodeDeferred is undefined
+I/Gecko   (  126): Full stack: MobileIdentityVerificationFlow.prototype.doVerification/</<@resource://gre/modules/MobileIdentityVerificationFlow.jsm:59:11
+I/Gecko   (  126): Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:873:21
+I/Gecko   (  126): this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:749:7
+I/Gecko   (  126): this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:691:37
+I/Gecko   (  126): 
+I/Gecko   (  126): *************************
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+D/wpa_supplicant(  422): nl80211: survey data missing!
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+D/wpa_supplicant(  422): nl80211: survey data missing!
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+D/wpa_supplicant(  422): nl80211: survey data missing!
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+D/wpa_supplicant(  422): nl80211: survey data missing!
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+D/wpa_supplicant(  422): nl80211: survey data missing!
+D/wpa_supplicant(  422): RTM_NEWLINK: operstate=1 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+D/wpa_supplicant(  422): RTM_NEWLINK, IFLA_IFNAME: Interface 'wlan0' added
+D/wpa_supplicant(  422): nl80211: if_removed already cleared - ignore event
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+D/wpa_supplicant(  422): nl80211: survey data missing!
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+D/wpa_supplicant(  422): nl80211: survey data missing!
+D/wpa_supplicant(  422): nl80211: Event message available
+D/wpa_supplicant(  422): wlan0: Event PMKID_CANDIDATE (6) received
+D/wpa_supplicant(  422): wlan0: RSN: PMKID candidate event - bssid=68:b6:fc:56:1e:58 index=0 preauth=0
+D/wpa_supplicant(  422): RSN: Ignored PMKID candidate without preauth flag
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+D/wpa_supplicant(  422): nl80211: survey data missing!
+D/wpa_supplicant(  422): RTM_NEWLINK: operstate=1 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+D/wpa_supplicant(  422): RTM_NEWLINK, IFLA_IFNAME: Interface 'wlan0' added
+D/wpa_supplicant(  422): nl80211: if_removed already cleared - ignore event
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+D/wpa_supplicant(  422): nl80211: survey data missing!
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+D/wpa_supplicant(  422): nl80211: survey data missing!
+D/wpa_supplicant(  422): RTM_NEWLINK: operstate=1 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+D/wpa_supplicant(  422): RTM_NEWLINK, IFLA_IFNAME: Interface 'wlan0' added
+D/wpa_supplicant(  422): nl80211: if_removed already cleared - ignore event
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+D/wpa_supplicant(  422): nl80211: survey data missing!
+D/wpa_supplicant(  422): RTM_NEWLINK: operstate=1 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+D/wpa_supplicant(  422): RTM_NEWLINK, IFLA_IFNAME: Interface 'wlan0' added
+D/wpa_supplicant(  422): nl80211: if_removed already cleared - ignore event
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6399.178] open with immediate
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6399.180] closed,opened,::,immediate-open
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6399.183] publishing internal event: opened
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6399.186] publishing internal event: requestforeground
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6399.187] publishing external event: requestforeground
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6399.188] set visibility -> ,true
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6399.189] before showing frame
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6399.190] setVisible on browser element:true
+I/GeckoDump(  126): [system] [HierarchyManager][6399.192] getting top most...,[object Object]
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6399.193] publishing external event: opened
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6399.200] publishing internal event: hidewindow
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6399.204]  Handling _hidewindow event...
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6399.205] set visibility -> ,false
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6399.206] setActive on browser element:false
+I/GeckoDump(  126): [system] [HierarchyManager][6399.427] getting top most...,[object Object]
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6399.429] before hiding frame
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6399.430] setVisible on browser element:false
+I/GeckoDump(  126): [system] [HierarchyManager][6399.758] windowopened
+I/GeckoDump(  126): [system] [HierarchyManager][6399.760] publishing: hierarchytopmostwindowchanged
+I/GeckoDump(  126): [system] [HierarchyManager][6399.761] getting top most...,[object Object]
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6399.797] publishing internal event: open
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6399.798] publishing external event: open
+I/GeckoDump(  126): [system] [HierarchyManager][6399.801] lockscreenwindowmanager-activated
+I/GeckoDump(  126): [system] [HierarchyManager][6399.801] handling lockscreenwindowmanager-activated
+I/GeckoDump(  126): [system] [HierarchyManager][6399.802] LockScreenWindowManager is becoming active now.
+I/GeckoDump(  126): [system] [HierarchyManager][6399.802] last top most is SystemDialogManager
+I/GeckoDump(  126): [system] [HierarchyManager][6399.802] next top most is LockScreenWindowManager
+I/GeckoDump(  126): [system] [HierarchyManager][6399.805] publishing: hierarchychanged
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=22): 44 52 49 56 45 52 20 53 45 54 53 55 53 50 45 4e 44 4f 50 54 20 31
+D/wpa_supplicant(  422): wpa_driver_nl80211_driver_cmd: failed to issue private commands
+E/Sensors (  126): sensor activate  handle 0 enable 0 drv 0
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+D/wpa_supplicant(  422): nl80211: survey data missing!
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6400.080]  Handling mozbrowservisibilitychange event...
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6400.081] publishing internal event: background
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6400.082] publishing external event: background
+I/Gecko   (  126): 1446127507508	MobileId	ERROR	UI error VERIFICATION_CODE_TIMEOUT
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=18): 44 52 49 56 45 52 20 50 4f 57 45 52 4d 4f 44 45 20 31
+I/AutoMounter(  126): Changing mode from 'Enable-UMS' to 'DisableWhenUnplugged'
+I/AutoMounter(  126): UpdateState: ums:A1C1E1 mtp:A1C0E0 mode:2 usb:1 tryToShare:1 state:UMS_CONFIGURED
+I/AutoMounter(  126): UpdateState: Volume sdcard is Shared and inserted
+I/AutoMounter(  126): UpdateState: Volume emmc is Mounted and inserted @ /mnt/emmc gen 2 locked 0 sharing dis
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+D/wpa_supplicant(  422): nl80211: survey data missing!
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+D/wpa_supplicant(  422): nl80211: survey data missing!
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+D/wpa_supplicant(  422): nl80211: survey data missing!
+D/wpa_supplicant(  422): RTM_NEWLINK: operstate=1 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+D/wpa_supplicant(  422): RTM_NEWLINK, IFLA_IFNAME: Interface 'wlan0' added
+D/wpa_supplicant(  422): nl80211: if_removed already cleared - ignore event
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+D/wpa_supplicant(  422): nl80211: survey data missing!
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+D/wpa_supplicant(  422): nl80211: survey data missing!
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+D/wpa_supplicant(  422): nl80211: survey data missing!
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+D/wpa_supplicant(  422): nl80211: survey data missing!
+D/wpa_supplicant(  422): nl80211: Event message available
+D/wpa_supplicant(  422): wlan0: Event PMKID_CANDIDATE (6) received
+D/wpa_supplicant(  422): wlan0: RSN: PMKID candidate event - bssid=68:b6:fc:56:1e:58 index=0 preauth=0
+D/wpa_supplicant(  422): RSN: Ignored PMKID candidate without preauth flag
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6437.199] open with immediate
+I/GeckoDump(  126): [system] [HierarchyManager][6437.201] lockscreenwindowmanager-activated
+I/GeckoDump(  126): [system] [HierarchyManager][6437.201] handling lockscreenwindowmanager-activated
+I/GeckoDump(  126): [system] [HierarchyManager][6437.202] LockScreenWindowManager is becoming active now.
+I/GeckoDump(  126): [system] [HierarchyManager][6437.202] top most is the same.,LockScreenWindowManager
+I/GeckoDump(  126): [system] [LockScreenInputWindow][app://lockscreen.gaiamobile.org][LockScreenInputWindow_3][6437.389] close with slide-to-bottom
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6437.390] request RESIZE...active? ,true
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6437.390]  will resize... 
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6437.391] force RESIZE...
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6437.392] publishing internal event: withoutkeyboard
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6437.393] publishing internal event: resize
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6437.394] publishing external event: resize
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6437.395] W:,360,H:,640
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=22): 44 52 49 56 45 52 20 53 45 54 53 55 53 50 45 4e 44 4f 50 54 20 31
+D/wpa_supplicant(  422): wpa_driver_nl80211_driver_cmd: failed to issue private commands
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=18): 44 52 49 56 45 52 20 50 4f 57 45 52 4d 4f 44 45 20 31
+I/GeckoDump(  126): [system] [HierarchyManager][6438.018] mozChromeEvent
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6439.287] set visibility -> ,true
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6439.288] setActive on browser element:true
+I/GeckoDump(  126): [system] [HierarchyManager][6439.536] getting top most...,[object Object]
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6439.537] before showing frame
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6439.540] setVisible on browser element:true
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6439.570] close with fade-out
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6439.571] opened,closing,::,close
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6439.575] timer to ensure closed does occur.
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6439.578] publishing internal event: closing
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6439.580] publishing external event: closing
+E/Sensors (  126): sensor activate  handle 0 enable 1 drv 0
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6439.586]  Unlocking screen orientation..
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6439.647] publishing internal event: willclose
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6439.648] publishing external event: willclose
+I/GeckoDump(  126): [system] [HierarchyManager][6439.658] lockscreenwindowmanager-deactivated
+I/GeckoDump(  126): [system] [HierarchyManager][6439.658] handling lockscreenwindowmanager-deactivated
+I/GeckoDump(  126): [system] [HierarchyManager][6439.661] SystemDialogManager is becoming active now.
+I/GeckoDump(  126): [system] [HierarchyManager][6439.662] last top most is LockScreenWindowManager
+I/GeckoDump(  126): [system] [HierarchyManager][6439.664] next top most is SystemDialogManager
+I/GeckoDump(  126): [system] [HierarchyManager][6439.666] publishing: hierarchychanged
+I/GeckoDump(  126): [system] [SimLockManager][6439.668] handling lockscreen-request-unlock
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6439.919]  Handling mozbrowservisibilitychange event...
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6439.920] publishing internal event: foreground
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6439.922] publishing external event: foreground
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6439.984] publishing internal event: closingtimeout
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6439.985] closing,closed,::,timeout
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6439.987] publishing internal event: closed
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6439.988]  Handling _closed event...
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6439.989] set visibility -> ,false
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6439.990] before hiding frame
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6439.991] setVisible on browser element:false
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6439.993] publishing external event: closed
+I/GeckoDump(  126): [system] [HierarchyManager][6440.009] windowclosed
+I/GeckoDump(  126): [system] [HierarchyManager][6440.011] publishing: hierarchytopmostwindowchanged
+I/GeckoDump(  126): [system] [HierarchyManager][6440.012] getting top most...,[object Object]
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6440.062] publishing internal event: close
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6440.063] publishing external event: close
+I/GeckoDump(  126): [system] [LockScreenInputWindow][app://lockscreen.gaiamobile.org][LockScreenInputWindow_3][6440.070] close with slide-to-bottom
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6440.071] request RESIZE...active? ,false
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+D/wpa_supplicant(  422): nl80211: survey data missing!
+I/Gecko   (  126): -*- WifiWorker component: Firing connectioninfoupdate: ({signalStrength:-57, relSignalStrength:95, linkSpeed:72, ipAddress:"192.168.1.11"})
+I/GeckoDump(  634): [findmydevice] got wake up request
+I/GeckoDump(  634): [findmydevice] unlocked
+I/AutoMounter(  126): Changing mode from 'DisableWhenUnplugged' to 'Enable-UMS'
+I/AutoMounter(  126): UpdateState: ums:A1C1E1 mtp:A1C0E0 mode:1 usb:1 tryToShare:1 state:UMS_CONFIGURED
+I/AutoMounter(  126): UpdateState: Volume sdcard is Shared and inserted
+I/AutoMounter(  126): UpdateState: Volume emmc is Mounted and inserted @ /mnt/emmc gen 2 locked 0 sharing dis
+I/GeckoDump(  126): [system] [HierarchyManager][6441.696] mozChromeEvent
+D/wpa_supplicant(  422): RTM_NEWLINK: operstate=1 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+D/wpa_supplicant(  422): RTM_NEWLINK, IFLA_IFNAME: Interface 'wlan0' added
+D/wpa_supplicant(  422): nl80211: if_removed already cleared - ignore event
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+D/wpa_supplicant(  422): nl80211: survey data missing!
+I/GeckoDump(  126): [system] [HierarchyManager][6446.464] home
+I/GeckoDump(  126): [system] [HierarchyManager][6446.465] handover home to SystemDialogManager
+I/GeckoDump(  126): [system] [HierarchyManager][6446.486] systemdialogmanager-deactivated
+I/GeckoDump(  126): [system] [HierarchyManager][6446.487] handling systemdialogmanager-deactivated
+I/GeckoDump(  126): [system] [HierarchyManager][6446.488] AppWindowManager is becoming active now.
+I/GeckoDump(  126): [system] [HierarchyManager][6446.489] last top most is SystemDialogManager
+I/GeckoDump(  126): [system] [HierarchyManager][6446.489] next top most is AppWindowManager
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6446.629] SIM Info:AppWindow_6 is setting nfc active to: true
+I/GeckoDump(  126): [system] [HierarchyManager][6446.632] publishing: hierarchychanged
+I/GeckoDump(  126): [system] [HierarchyManager][6446.633] handover home to AppWindowManager
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6446.634] ensuring homescreen...,
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6446.634] ensuring homescreen...,
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6446.639] request RESIZE...
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6446.640]  will resize... 
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6446.641] force RESIZE...
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6446.642] publishing internal event: withoutkeyboard
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6446.645] requesting to open
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6446.648] set visibility -> ,true
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6446.648] setActive on browser element:true
+I/GeckoDump(  126): [system] [HierarchyManager][6446.717] getting top most...,[object Object]
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6446.718] before showing frame
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6446.721] setVisible on browser element:true
+I/GeckoDump(  126): [system] [HierarchyManager][6446.769] mozChromeEvent
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6446.827]  Handling mozbrowserlocationchange event...
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6446.829] publishing internal event: locationchange
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6446.830] publishing external event: locationchange
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6446.836]  Handling mozbrowservisibilitychange event...
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6446.837] publishing internal event: foreground
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6446.838] publishing external event: foreground
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6446.847]  Handling mozbrowserasyncscroll event...
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6446.974]  Handling mozbrowserasyncscroll event...
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6447.146]  nextpaint is timeouted.
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6447.152] request RESIZE...
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6447.153]  will resize... 
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6447.153] force RESIZE...
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6447.154] publishing internal event: withoutkeyboard
+I/GeckoDump(  126): [system] [HierarchyManager][6447.160] appwindowmanager-activated
+I/GeckoDump(  126): [system] [HierarchyManager][6447.161] handling appwindowmanager-activated
+I/GeckoDump(  126): [system] [HierarchyManager][6447.162] AppWindowManager is becoming active now.
+I/GeckoDump(  126): [system] [HierarchyManager][6447.163] top most is the same.,AppWindowManager
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6447.164] portrait-primary
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6447.165] open with zoom-out
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6447.165] closed,opening,::,open
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6447.168] timer to ensure opened does occur.
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6447.171] appWindow homescreen render scrollable transition-opening zoom-out
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6447.174] publishing internal event: opening
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6447.178]  fade in <<<<< 
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6447.181] publishing internal event: requestforeground
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6447.183] publishing external event: requestforeground
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6447.186] set visibility -> ,true
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6447.189] setActive on browser element:true
+I/GeckoDump(  126): [system] [HierarchyManager][6447.192] getting top most...,[object Object]
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6447.193] before showing frame
+E/Sensors (  126): sensor activate  handle 0 enable 0 drv 0
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6447.205]  locking screen orientation to portrait-primary
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6447.206] handling _opening
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6447.208] aria-hidden on browser element:false
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6447.211] publishing external event: opening
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6447.214] publishing internal event: willopen
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6447.215] publishing external event: willopen
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6447.217] close with reduce
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6447.221] opened,closing,::,close
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6447.223] timer to ensure closed does occur.
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6447.226] publishing internal event: closing
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6447.229] handling _closing
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6447.231] publishing external event: closing
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6447.234] publishing internal event: willclose
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6447.235] publishing external event: willclose
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6447.520] publishing internal event: openingtimeout
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6447.522] opening,opened,::,timeout
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6447.532] publishing internal event: opened
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6447.539] publishing internal event: requestforeground
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6447.541] publishing external event: requestforeground
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6447.544] set visibility -> ,true
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6447.547] setActive on browser element:true
+I/GeckoDump(  126): [system] [HierarchyManager][6447.551] getting top most...,[object Object]
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6447.552] before showing frame
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6447.560]  locking screen orientation to portrait-primary
+I/GeckoDump(  126): [system] [HierarchyManager][6447.567] getting top most...,[object Object]
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6447.568] focusing this app.
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6447.603] Tilescreen:homescreen is setting nfc active to: true
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6447.606] publishing internal event: loadtime
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6447.609] publishing external event: loadtime{"time":429,"type":"w","src":"app://889a7ac3-752e-434e-8489-ca4bab5326e6/index.html#1446127554056"}
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6447.612] publishing external event: opened
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6447.616] request RESIZE...
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6447.618]  will resize... 
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6447.619] force RESIZE...
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6447.620] publishing internal event: withoutkeyboard
+I/GeckoDump(  126): [system] [HierarchyManager][6447.623] appwindowmanager-activated
+I/GeckoDump(  126): [system] [HierarchyManager][6447.625] handling appwindowmanager-activated
+I/GeckoDump(  126): [system] [HierarchyManager][6447.626] AppWindowManager is becoming active now.
+I/GeckoDump(  126): [system] [HierarchyManager][6447.627] top most is the same.,AppWindowManager
+I/GeckoDump(  126): [system] [HierarchyManager][6447.636] windowopened
+I/GeckoDump(  126): [system] [HierarchyManager][6447.640] publishing: hierarchytopmostwindowchanged
+I/GeckoDump(  126): [system] [HierarchyManager][6447.642] getting top most...,[object Object]
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6447.691] publishing internal event: open
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6447.693] publishing external event: open
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6447.699] closeApp has been ENDED!
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6447.700] closing,closed,::,complete
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6447.705] publishing internal event: closed
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6447.707]  Handling _closed event...
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6447.728] set visibility -> ,false
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6447.730] setActive on browser element:false
+I/GeckoDump(  126): [system] [HierarchyManager][6447.876] getting top most...,[object Object]
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6447.877] before hiding frame
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6447.877] setVisible on browser element:false
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6447.880] SIM Info:AppWindow_6 is setting nfc active to: false
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6447.888] publishing external event: closed
+I/GeckoDump(  126): [system] [HierarchyManager][6447.890] windowclosed
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6447.894] publishing internal event: close
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6447.897] publishing external event: close
+I/GeckoDump(  126): [system] [HierarchyManager][6448.072] mozChromeEvent
+I/GeckoDump(  126): [system] [HierarchyManager][6448.081] mozChromeEvent
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6448.088] getScreenshot succeed!
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6448.088] get screenshot success!!!!
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6448.120]  Handling mozbrowservisibilitychange event...
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6448.121] publishing internal event: background
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6448.122] publishing external event: background
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6448.474]  Handling mozbrowserasyncscroll event...
+I/GeckoDump(  126): [system] [HierarchyManager][6448.512] mozChromeEvent
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6448.540] request RESIZE...active? ,false
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6448.542] requesting to open
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6448.542] loaded yet
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6448.585] request RESIZE...active? ,false
+I/GeckoDump(  126): [system] [HierarchyManager][6448.586] appwindowmanager-activated
+I/GeckoDump(  126): [system] [HierarchyManager][6448.586] handling appwindowmanager-activated
+I/GeckoDump(  126): [system] [HierarchyManager][6448.587] AppWindowManager is becoming active now.
+I/GeckoDump(  126): [system] [HierarchyManager][6448.587] top most is the same.,AppWindowManager
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6448.588] portrait-primary
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6448.589] open with enlarge
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6448.590] closed,opening,::,open
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6448.592] timer to ensure opened does occur.
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6448.595] appWindow render scrollable overlay transition-opening enlarge
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6448.596] publishing internal event: opening
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6448.600]  fade in <<<<< 
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6448.601] publishing internal event: requestforeground
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6448.603] publishing external event: requestforeground
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6448.605] set visibility -> ,true
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6448.606] setActive on browser element:true
+I/GeckoDump(  126): [system] [HierarchyManager][6449.016] getting top most...,[object Object]
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6449.018] before showing frame
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6449.021] setVisible on browser element:true
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6449.027] trying wait for full repaint by screenshot enforcing..
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6449.042] handling _opening
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6449.044] publishing external event: opening
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6449.050] request RESIZE...active? ,true
+I/GeckoDump(  126): [system] [HierarchyManager][6449.051] appwindowmanager-activated
+I/GeckoDump(  126): [system] [HierarchyManager][6449.052] handling appwindowmanager-activated
+I/GeckoDump(  126): [system] [HierarchyManager][6449.054] AppWindowManager is becoming active now.
+I/GeckoDump(  126): [system] [HierarchyManager][6449.055] top most is the same.,AppWindowManager
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6449.058] publishing internal event: willopen
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6449.059] publishing external event: willopen
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6449.061] close with zoom-in
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6449.062] opened,closing,::,close
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6449.066] timer to ensure closed does occur.
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6449.069] publishing internal event: closing
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6449.070] handling _closing
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6449.071] aria-hidden on browser element:false
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6449.072] publishing external event: closing
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6449.073] publishing internal event: willclose
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6449.074] publishing external event: willclose
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6449.204]  Handling mozbrowservisibilitychange event...
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6449.205] publishing internal event: foreground
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6449.206] publishing external event: foreground
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6449.303] getScreenshot succeed!
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6449.303] get screenshot success!!!!
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6449.418] publishing internal event: closingtimeout
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6449.419] closing,closed,::,timeout
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6449.422] publishing internal event: closed
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6449.424]  Handling _closed event...
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6449.432] set visibility -> ,false
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6449.435] setActive on browser element:false
+I/GeckoDump(  126): [system] [HierarchyManager][6449.487] getting top most...,[object Object]
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6449.489] before hiding frame
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6449.490] setVisible on browser element:false
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6449.498] Tilescreen:homescreen is setting nfc active to: false
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6449.503] publishing external event: closed
+I/GeckoDump(  126): [system] [HierarchyManager][6449.507] windowclosed
+I/GeckoDump(  126): [system] [HierarchyManager][6449.509] publishing: hierarchytopmostwindowchanged
+I/GeckoDump(  126): [system] [HierarchyManager][6449.511] getting top most...,[object Object]
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6449.512] SIM Info:AppWindow_6 is setting nfc active to: true
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6449.594] publishing internal event: close
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6449.596] publishing external event: close
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6449.607] openApp has been ENDED!
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6449.608] opening,opened,::,complete
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6449.617] publishing internal event: opened
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6449.621] publishing internal event: requestforeground
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6449.625] publishing external event: requestforeground
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6449.628] set visibility -> ,true
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6449.632] setActive on browser element:true
+I/GeckoDump(  126): [system] [HierarchyManager][6449.636] getting top most...,[object Object]
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6449.638] before showing frame
+E/Sensors (  126): sensor activate  handle 0 enable 1 drv 0
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6449.652]  Unlocking screen orientation..
+I/GeckoDump(  126): [system] [HierarchyManager][6449.653] getting top most...,[object Object]
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6449.654] focusing this app.
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6449.708] publishing internal event: loadtime
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6449.709] publishing external event: loadtime{"time":1105,"type":"w","src":"app://imei.leandro.org/index.html"}
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6449.711] publishing external event: opened
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6449.722] request RESIZE...active? ,true
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6449.724]  will resize... 
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6449.726] force RESIZE...
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6449.728] publishing internal event: withoutkeyboard
+I/GeckoDump(  126): [system] [HierarchyManager][6449.732] appwindowmanager-activated
+I/GeckoDump(  126): [system] [HierarchyManager][6449.733] handling appwindowmanager-activated
+I/GeckoDump(  126): [system] [HierarchyManager][6449.735] AppWindowManager is becoming active now.
+I/GeckoDump(  126): [system] [HierarchyManager][6449.737] top most is the same.,AppWindowManager
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6449.741]  fade out >>>> 
+I/GeckoDump(  126): [system] [SimLockManager][6449.742] handling appopened
+I/GeckoDump(  126): [system] [HierarchyManager][6449.782] windowopened
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6449.784] publishing internal event: open
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6449.786] publishing external event: open
+I/GeckoDump(  126): [system] [HierarchyManager][6449.915] mozChromeEvent
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6449.971]  Handling mozbrowservisibilitychange event...
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6449.972] publishing internal event: background
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6449.973] publishing external event: background
+I/GeckoDump(  126): [system] [HierarchyManager][6449.986] mozChromeEvent
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6450.186] getScreenshot succeed!
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6450.187] get screenshot success!!!!
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+D/wpa_supplicant(  422): nl80211: survey data missing!
+I/Gecko   (  126): -*- WifiWorker component: Firing connectioninfoupdate: ({signalStrength:-55, relSignalStrength:100, linkSpeed:72, ipAddress:"192.168.1.11"})
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6450.288]  Handling mozbrowserasyncscroll event...
+I/GeckoDump(  126): [system] [HierarchyManager][6451.389] systemdialogmanager-activated
+I/GeckoDump(  126): [system] [HierarchyManager][6451.389] handling systemdialogmanager-activated
+I/GeckoDump(  126): [system] [HierarchyManager][6451.390] SystemDialogManager is becoming active now.
+I/GeckoDump(  126): [system] [HierarchyManager][6451.391] last top most is AppWindowManager
+I/GeckoDump(  126): [system] [HierarchyManager][6451.391] next top most is SystemDialogManager
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6451.396] SIM Info:AppWindow_6 is setting nfc active to: false
+I/GeckoDump(  126): [system] [HierarchyManager][6451.399] publishing: hierarchychanged
+I/GeckoDump(  126): [system] [HierarchyManager][6451.640] mozChromeEvent
+I/GeckoDump(  126): [system] [HierarchyManager][6451.653] mozChromeEvent
+I/Gecko   (  126): Performance warning: Async animation disabled because frame size (720, 130) is bigger than the viewport (405, 720) or the visual rectangle (720, 130) is larger than the max allowable value (17895698) [section]
+I/GeckoDump(  126): [system] [HierarchyManager][6453.352] mozChromeEvent
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6453.380] setAsActiveInput: app://keyboard.gaiamobile.org/manifest.webapp/index.html#es, active: true
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6453.381] set visibility -> ,true
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6453.381] setActive on browser element:true
+I/GeckoDump(  126): [system] [HierarchyManager][6453.595] getting top most...,[object Object]
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6453.596] before showing frame
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6453.597] setVisible on browser element:true
+I/GeckoDump(  126): [system] [HierarchyManager][6453.611] mozChromeEvent
+I/GeckoDump(  126): [system] [HierarchyManager][6453.613] handover mozChromeEvent to SystemDialogManager
+I/GeckoDump(  126): [system] [HierarchyManager][6453.614] handover mozChromeEvent to AppWindowManager
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6453.614] publishing internal event: inputmethod-contextchange
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6453.615] handling _inputmethod-contextchange
+W/Built-in Keyboard(  607): Content JS WARN: LayoutManager:No space key found. No special keys will be added. 
+W/Built-in Keyboard(  607):     at LayoutManager.prototype._updateCurrentPage (app://keyboard.gaiamobile.org/gaia_build_defer_index.js:69:548)
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6453.896]  Handling mozbrowserresize event...
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6453.896] publishing internal event: ready
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6453.897]  Handling _ready event...
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6453.898] open with slide-from-bottom
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6453.898] closed,opening,::,open
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6453.899] timer to ensure opened does occur.
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6453.901] inputWindow top-most transition-opening slide-from-bottom
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6453.901] publishing internal event: opening
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6453.902]  fade in <<<<< 
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6453.903] publishing internal event: requestforeground
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6453.904] publishing external event: requestforeground
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6453.905] publishing external event: opening
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6453.906] publishing internal event: willopen
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6453.907] publishing external event: willopen
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6453.909] publishing external event: ready
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6454.375] kbShow has been ENDED!
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6454.376] opening,opened,::,complete
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6454.378] publishing internal event: opened
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6454.381] publishing internal event: requestforeground
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6454.383] publishing external event: requestforeground
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6454.386] publishing external event: opened
+I/GeckoDump(  126): [system] [HierarchyManager][6454.393] system-resize
+I/GeckoDump(  126): [system] [HierarchyManager][6454.395] handover system-resize to SystemDialogManager
+I/GeckoDump(  126): [system] [HomescreenWindow][Tilescreen][homescreen][6454.451]  fade out >>>> 
+I/GeckoDump(  126): [system] [HierarchyManager][6454.453] windowopened
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6454.455] publishing internal event: open
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6454.457] publishing external event: open
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+D/wpa_supplicant(  422): nl80211: survey data missing!
+I/Gecko   (  126): -*- WifiWorker component: Firing connectioninfoupdate: ({signalStrength:-56, relSignalStrength:97, linkSpeed:58, ipAddress:"192.168.1.11"})
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+D/wpa_supplicant(  422): nl80211: survey data missing!
+I/Gecko   (  126): -*- WifiWorker component: Firing connectioninfoupdate: ({signalStrength:-55, relSignalStrength:100, linkSpeed:58, ipAddress:"192.168.1.11"})
+I/Gecko   (  126): Performance warning: Async animation disabled because frame size (720, 40) is bigger than the viewport (405, 720) or the visual rectangle (720, 40) is larger than the max allowable value (17895698) [div with id 'msb']
+I/GeckoDump(  126): [system] [HierarchyManager][6461.473] mozChromeEvent
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6461.600] close with slide-to-bottom
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6461.601] opened,closing,::,close
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6461.610] timer to ensure closed does occur.
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6461.612] publishing internal event: closing
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6461.615] publishing external event: closing
+I/GeckoDump(  126): [system] [HierarchyManager][6461.627] system-resize
+I/GeckoDump(  126): [system] [HierarchyManager][6461.629] handover system-resize to SystemDialogManager
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6461.698] publishing internal event: willclose
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6461.699] publishing external event: willclose
+I/GeckoDump(  126): [system] [HierarchyManager][6461.702] mozChromeEvent
+I/GeckoDump(  126): [system] [HierarchyManager][6461.707] handover mozChromeEvent to SystemDialogManager
+I/Gecko   (  126): -*- SettingsRequestManager: No keys to change entered!
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6462.252] kbHide has been ENDED!
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6462.253] closing,closed,::,complete
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6462.257] publishing internal event: closed
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6462.261] publishing external event: closed
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6462.263] setAsActiveInput: app://keyboard.gaiamobile.org/manifest.webapp/index.html#es, active: false
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6462.263] set visibility -> ,false
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6462.265] setActive on browser element:false
+I/GeckoDump(  126): [system] [HierarchyManager][6462.567] getting top most...,[object Object]
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6462.568] before hiding frame
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6462.569] setVisible on browser element:false
+I/GeckoDump(  126): [system] [HierarchyManager][6462.587] windowclosed
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6462.590] publishing internal event: close
+I/GeckoDump(  126): [system] [InputWindow][Built-in Keyboard][InputWindow_4][6462.592] publishing external event: close
+W/GeckoConsole(  126): [JavaScript Error: "uncaught exception: 2147549183"]
+I/Gecko   (  126): 1446127571062	Hawk	ERROR	Unhandled exception processing response:TypeError: "toString" is read-only (resource://services-common/hawkclient.js:125:4) JS Stack trace: this.HawkClient.prototype._constructError@hawkclient.js:125:5 < _onComplete@hawkclient.js:259:32 < onComplete@hawkclient.js:270:9 < onStopRequest@rest.js:476:5
+I/Gecko   (  126): 1446127571065	MobileId	ERROR	MobileIdentityClient -> Error TypeError: "toString" is read-only (resource://services-common/hawkclient.js:125:4) JS Stack trace: this.HawkClient.prototype._constructError@hawkclient.js:125:5 < _onComplete@hawkclient.js:259:32 < onComplete@hawkclient.js:270:9 < onStopRequest@rest.js:476:5
+I/Gecko   (  126): *************************
+I/Gecko   (  126): A coding exception was thrown in a Promise rejection callback.
+I/Gecko   (  126): See https://developer.mozilla.org/Mozilla/JavaScript_code_modules/Promise.jsm/Promise
+I/Gecko   (  126): 
+I/Gecko   (  126): Full message: TypeError: this.verificationCodeDeferred is undefined
+I/Gecko   (  126): Full stack: MobileIdentityVerificationFlow.prototype.doVerification/</<@resource://gre/modules/MobileIdentityVerificationFlow.jsm:59:11
+I/Gecko   (  126): Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:873:21
+I/Gecko   (  126): this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:749:7
+I/Gecko   (  126): this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:691:37
+I/Gecko   (  126): 
+I/Gecko   (  126): *************************
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+D/wpa_supplicant(  422): nl80211: survey data missing!
+I/Gecko   (  126): -*- WifiWorker component: Firing connectioninfoupdate: ({signalStrength:-55, relSignalStrength:100, linkSpeed:72, ipAddress:"192.168.1.11"})
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+D/wpa_supplicant(  422): nl80211: survey data missing!
+D/wpa_supplicant(  422): RTM_NEWLINK: operstate=1 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+D/wpa_supplicant(  422): RTM_NEWLINK, IFLA_IFNAME: Interface 'wlan0' added
+D/wpa_supplicant(  422): nl80211: if_removed already cleared - ignore event
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+D/wpa_supplicant(  422): nl80211: survey data missing!
+D/wpa_supplicant(  422): RTM_NEWLINK: operstate=1 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+D/wpa_supplicant(  422): RTM_NEWLINK, IFLA_IFNAME: Interface 'wlan0' added
+D/wpa_supplicant(  422): nl80211: if_removed already cleared - ignore event
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+D/wpa_supplicant(  422): nl80211: survey data missing!
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+D/wpa_supplicant(  422): nl80211: survey data missing!
+D/wpa_supplicant(  422): RTM_NEWLINK: operstate=1 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+D/wpa_supplicant(  422): RTM_NEWLINK, IFLA_IFNAME: Interface 'wlan0' added
+D/wpa_supplicant(  422): nl80211: if_removed already cleared - ignore event
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+D/wpa_supplicant(  422): nl80211: survey data missing!
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+D/wpa_supplicant(  422): nl80211: survey data missing!
+D/wpa_supplicant(  422): nl80211: Event message available
+D/wpa_supplicant(  422): wlan0: Event PMKID_CANDIDATE (6) received
+D/wpa_supplicant(  422): wlan0: RSN: PMKID candidate event - bssid=68:b6:fc:56:1e:58 index=0 preauth=0
+D/wpa_supplicant(  422): RSN: Ignored PMKID candidate without preauth flag
+D/wpa_supplicant(  422): RTM_NEWLINK: operstate=1 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+D/wpa_supplicant(  422): RTM_NEWLINK, IFLA_IFNAME: Interface 'wlan0' added
+D/wpa_supplicant(  422): nl80211: if_removed already cleared - ignore event
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+D/wpa_supplicant(  422): nl80211: survey data missing!
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+D/wpa_supplicant(  422): nl80211: survey data missing!
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+D/wpa_supplicant(  422): nl80211: survey data missing!
+D/wpa_supplicant(  422): RTM_NEWLINK: operstate=1 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+D/wpa_supplicant(  422): RTM_NEWLINK, IFLA_IFNAME: Interface 'wlan0' added
+D/wpa_supplicant(  422): nl80211: if_removed already cleared - ignore event
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+D/wpa_supplicant(  422): nl80211: survey data missing!
+D/wpa_supplicant(  422): RTM_NEWLINK: operstate=1 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+D/wpa_supplicant(  422): RTM_NEWLINK, IFLA_IFNAME: Interface 'wlan0' added
+D/wpa_supplicant(  422): nl80211: if_removed already cleared - ignore event
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+D/wpa_supplicant(  422): nl80211: survey data missing!
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6521.893] open with immediate
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6521.894] closed,opened,::,immediate-open
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6521.898] publishing internal event: opened
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6521.901] publishing internal event: requestforeground
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6521.903] publishing external event: requestforeground
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6521.905] set visibility -> ,true
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6521.907] before showing frame
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6521.909] setVisible on browser element:true
+I/GeckoDump(  126): [system] [HierarchyManager][6521.913] getting top most...,[object Object]
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6521.915] publishing external event: opened
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6521.926] publishing internal event: hidewindow
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6521.927]  Handling _hidewindow event...
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6521.929] set visibility -> ,false
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6521.930] setActive on browser element:false
+I/GeckoDump(  126): [system] [HierarchyManager][6522.337] getting top most...,[object Object]
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6522.340] before hiding frame
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6522.344] setVisible on browser element:false
+I/GeckoDump(  126): [system] [HierarchyManager][6522.687] windowopened
+I/GeckoDump(  126): [system] [HierarchyManager][6522.690] publishing: hierarchytopmostwindowchanged
+I/GeckoDump(  126): [system] [HierarchyManager][6522.693] getting top most...,[object Object]
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6522.726] publishing internal event: open
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6522.728] publishing external event: open
+I/GeckoDump(  126): [system] [HierarchyManager][6522.731] lockscreenwindowmanager-activated
+I/GeckoDump(  126): [system] [HierarchyManager][6522.732] handling lockscreenwindowmanager-activated
+I/GeckoDump(  126): [system] [HierarchyManager][6522.733] LockScreenWindowManager is becoming active now.
+I/GeckoDump(  126): [system] [HierarchyManager][6522.734] last top most is SystemDialogManager
+I/GeckoDump(  126): [system] [HierarchyManager][6522.735] next top most is LockScreenWindowManager
+I/GeckoDump(  126): [system] [HierarchyManager][6522.736] publishing: hierarchychanged
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=22): 44 52 49 56 45 52 20 53 45 54 53 55 53 50 45 4e 44 4f 50 54 20 31
+D/wpa_supplicant(  422): wpa_driver_nl80211_driver_cmd: failed to issue private commands
+E/Sensors (  126): sensor activate  handle 0 enable 0 drv 0
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6523.046]  Handling mozbrowservisibilitychange event...
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6523.047] publishing internal event: background
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6523.049] publishing external event: background
+I/Gecko   (  126): 1446127630479	MobileId	ERROR	UI error VERIFICATION_CODE_TIMEOUT
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=18): 44 52 49 56 45 52 20 50 4f 57 45 52 4d 4f 44 45 20 31
+I/AutoMounter(  126): Changing mode from 'Enable-UMS' to 'DisableWhenUnplugged'
+I/AutoMounter(  126): UpdateState: ums:A1C1E1 mtp:A1C0E0 mode:2 usb:1 tryToShare:1 state:UMS_CONFIGURED
+I/AutoMounter(  126): UpdateState: Volume sdcard is Shared and inserted
+I/AutoMounter(  126): UpdateState: Volume emmc is Mounted and inserted @ /mnt/emmc gen 2 locked 0 sharing dis
+I/GeckoDump(  126): [system] [HierarchyManager][6523.363] mozChromeEvent
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+D/wpa_supplicant(  422): nl80211: survey data missing!
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+D/wpa_supplicant(  422): nl80211: survey data missing!
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+D/wpa_supplicant(  422): nl80211: survey data missing!
+D/wpa_supplicant(  422): RTM_NEWLINK: operstate=1 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+D/wpa_supplicant(  422): RTM_NEWLINK, IFLA_IFNAME: Interface 'wlan0' added
+D/wpa_supplicant(  422): nl80211: if_removed already cleared - ignore event
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+D/wpa_supplicant(  422): nl80211: survey data missing!
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+D/wpa_supplicant(  422): nl80211: survey data missing!
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+D/wpa_supplicant(  422): nl80211: survey data missing!
+I/Telegram(  391): Content JS LOG: [6549.160] Bad server salt [object Object] 
+I/Telegram(  391):     at u.prototype.processMessage (app://{48f750f2-07e0-4e57-bb11-6dfdb30ba66f}/js/app.js:16:22003)
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+D/wpa_supplicant(  422): nl80211: survey data missing!
+D/wpa_supplicant(  422): nl80211: Event message available
+D/wpa_supplicant(  422): wlan0: Event PMKID_CANDIDATE (6) received
+D/wpa_supplicant(  422): wlan0: RSN: PMKID candidate event - bssid=68:b6:fc:56:1e:58 index=0 preauth=0
+D/wpa_supplicant(  422): RSN: Ignored PMKID candidate without preauth flag
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+D/wpa_supplicant(  422): nl80211: survey data missing!
+D/wpa_supplicant(  422): RTM_NEWLINK: operstate=1 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+D/wpa_supplicant(  422): RTM_NEWLINK, IFLA_IFNAME: Interface 'wlan0' added
+D/wpa_supplicant(  422): nl80211: if_removed already cleared - ignore event
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6565.308] open with immediate
+I/GeckoDump(  126): [system] [HierarchyManager][6565.310] lockscreenwindowmanager-activated
+I/GeckoDump(  126): [system] [HierarchyManager][6565.311] handling lockscreenwindowmanager-activated
+I/GeckoDump(  126): [system] [HierarchyManager][6565.311] LockScreenWindowManager is becoming active now.
+I/GeckoDump(  126): [system] [HierarchyManager][6565.312] top most is the same.,LockScreenWindowManager
+I/GeckoDump(  126): [system] [LockScreenInputWindow][app://lockscreen.gaiamobile.org][LockScreenInputWindow_3][6565.498] close with slide-to-bottom
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6565.499] request RESIZE...active? ,true
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6565.499]  will resize... 
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6565.499] force RESIZE...
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6565.500] publishing internal event: withoutkeyboard
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6565.502] publishing internal event: resize
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6565.503] publishing external event: resize
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6565.504] W:,360,H:,640
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=22): 44 52 49 56 45 52 20 53 45 54 53 55 53 50 45 4e 44 4f 50 54 20 31
+D/wpa_supplicant(  422): wpa_driver_nl80211_driver_cmd: failed to issue private commands
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+D/wpa_supplicant(  422): nl80211: survey data missing!
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=18): 44 52 49 56 45 52 20 50 4f 57 45 52 4d 4f 44 45 20 31
+I/Gecko   (  126): -*- WifiWorker component: Firing connectioninfoupdate: ({signalStrength:-60, relSignalStrength:88, linkSpeed:72, ipAddress:"192.168.1.11"})
+I/GeckoDump(  126): [system] [HierarchyManager][6566.003] mozChromeEvent
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6567.378] set visibility -> ,true
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6567.378] setActive on browser element:true
+I/GeckoDump(  126): [system] [HierarchyManager][6567.627] getting top most...,[object Object]
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6567.628] before showing frame
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6567.632] setVisible on browser element:true
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6567.654] close with fade-out
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6567.654] opened,closing,::,close
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6567.656] timer to ensure closed does occur.
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6567.658] publishing internal event: closing
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6567.660] publishing external event: closing
+E/Sensors (  126): sensor activate  handle 0 enable 1 drv 0
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6567.667]  Unlocking screen orientation..
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6567.729] publishing internal event: willclose
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6567.730] publishing external event: willclose
+I/GeckoDump(  126): [system] [HierarchyManager][6567.741] lockscreenwindowmanager-deactivated
+I/GeckoDump(  126): [system] [HierarchyManager][6567.741] handling lockscreenwindowmanager-deactivated
+I/GeckoDump(  126): [system] [HierarchyManager][6567.743] SystemDialogManager is becoming active now.
+I/GeckoDump(  126): [system] [HierarchyManager][6567.743] last top most is LockScreenWindowManager
+I/GeckoDump(  126): [system] [HierarchyManager][6567.744] next top most is SystemDialogManager
+I/GeckoDump(  126): [system] [HierarchyManager][6567.745] publishing: hierarchychanged
+I/GeckoDump(  126): [system] [SimLockManager][6567.746] handling lockscreen-request-unlock
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6568.032]  Handling mozbrowservisibilitychange event...
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6568.033] publishing internal event: foreground
+I/GeckoDump(  126): [system] [AppWindow][SIM Info][AppWindow_6][6568.035] publishing external event: foreground
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6568.086] publishing internal event: closingtimeout
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6568.087] closing,closed,::,timeout
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6568.090] publishing internal event: closed
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6568.092]  Handling _closed event...
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6568.094] set visibility -> ,false
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6568.095] before hiding frame
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6568.096] setVisible on browser element:false
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6568.099] publishing external event: closed
+I/GeckoDump(  126): [system] [HierarchyManager][6568.114] windowclosed
+I/GeckoDump(  126): [system] [HierarchyManager][6568.115] publishing: hierarchytopmostwindowchanged
+I/GeckoDump(  126): [system] [HierarchyManager][6568.116] getting top most...,[object Object]
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6568.167] publishing internal event: close
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6568.168] publishing external event: close
+I/GeckoDump(  126): [system] [LockScreenInputWindow][app://lockscreen.gaiamobile.org][LockScreenInputWindow_3][6568.176] close with slide-to-bottom
+I/GeckoDump(  126): [system] [LockScreenWindow][app://lockscreen.gaiamobile.org][LockScreenWindow_2][6568.177] request RESIZE...active? ,false
+I/GeckoDump(  634): [findmydevice] got wake up request
+I/GeckoDump(  634): [findmydevice] unlocked
+I/AutoMounter(  126): Changing mode from 'DisableWhenUnplugged' to 'Enable-UMS'
+I/AutoMounter(  126): UpdateState: ums:A1C1E1 mtp:A1C0E0 mode:1 usb:1 tryToShare:1 state:UMS_CONFIGURED
+I/AutoMounter(  126): UpdateState: Volume sdcard is Shared and inserted
+I/AutoMounter(  126): UpdateState: Volume emmc is Mounted and inserted @ /mnt/emmc gen 2 locked 0 sharing dis
+I/GeckoDump(  126): [system] [HierarchyManager][6569.582] mozChromeEvent
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+D/wpa_supplicant(  422): nl80211: survey data missing!
+I/Gecko   (  126): -*- WifiWorker component: Firing connectioninfoupdate: ({signalStrength:-55, relSignalStrength:100, linkSpeed:72, ipAddress:"192.168.1.11"})
+D/wpa_supplicant(  422): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+D/wpa_supplicant(  422): nl80211: survey data missing!

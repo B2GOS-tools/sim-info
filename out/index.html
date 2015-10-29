@@ -1,0 +1,53 @@
+<html>
+    <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="cleartype" content="on" />
+  <meta name="MobileOptimized" content="width" />
+  <meta name="HandheldFriendly" content="true" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#FF4400">
+
+  <link href="style/headers.css" rel="stylesheet" type="text/css">
+  <link href="style/buttons.css" rel="stylesheet" type="text/css">
+  <link href="style/input_areas.css" rel="stylesheet" type="text/css">
+  <link href="style/layout.css" rel="stylesheet" type="text/css">
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+    <body style="margin:0 auto;">
+    <section role="region">
+    <header style="width:100%">
+        <h1>SIM Info</h1>
+    </header>
+    </section>
+    <section style="padding-left:3%; padding-right:3%">
+    <br/>
+    Number of SIMs: <span id="n-sims"></span><br/>
+    Network Name: <span id="network-name"></span><br/>
+    Network Signal: <span id="network-signal"></span><br/>
+    Supported Networks: <span id="network-supported"></span><br/>
+    MCC: <span id="network-mcc"></span><br/>
+    MNC: <span id="network-mnc"></span><br/>
+    ICCID: <span id="iccid"></span><br/>
+
+
+
+    <br>
+    <button id="btn-imei">IMEI</button>
+
+
+    <button id="btn-msisdn">MSISDN</button>
+    <button id="btn-forward" >Call Forwarding</button>
+
+
+    </section>
+    </body>
+
+
+
+
+  <script src="js/goog/base.js"></script>
+  <script src="js/imei.js"></script>
+</html>

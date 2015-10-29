@@ -1,0 +1,32 @@
+{
+  "name": "SIM Info",
+  "version": "0.1",
+  "description": "IMEI, ICCID, and other numbers of your SIM chip and your FirefoxOS phone",
+  "launch_path": "/index.html",
+  "developer": {
+    "name": "novia713",
+    "url": "https://github.com/novia713/callme"
+  },
+  "default_locale": "en",
+  "icons": {
+    "256": "/sim-256.png",
+    "128": "/sim-128.png",
+    "90": "/sim-90.png",
+    "64": "/sim-64.png",
+    "48": "/sim-48.png",
+    "32": "/sim-32.png",
+    "16": "/sim-16.png"
+  },
+  "type":"certified",
+  "origin": "app://imei.leandro.org",
+  "permissions":{
+    "mobileid": {},
+    "mobilenetwork": {},
+    "mobileconnection": {},
+    "open-remote-window": {},
+    "telephony": {},
+    "wifi-manage": {},
+    "phonenumberservice": {}
+  }
+}
+
