@@ -11,8 +11,8 @@ The flashable app lives in /out directory
 
 ### Bugs
 
- * More than 1 SIM is not supported
- * MSISDN detection is not working
+ * More than 1 SIM is not supported yet
+ * MSISDN detection is not working for now
 
 
 Copyright © 2015 leandro@leandro.org
