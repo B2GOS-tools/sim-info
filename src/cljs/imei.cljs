@@ -19,6 +19,7 @@
 (def span-network-mnc   (.getElementById js/document "network-mnc"))
 (def span-network-supported (.getElementById js/document "network-supported"))
 (def span-iccid         (.getElementById js/document "iccid"))
+(def a-sync             (.getElementById js/document "sync"))
 
 (def span-network-type  (.getElementById js/document "network-type"))
 (def span-network-state (.getElementById js/document "network-state"))
@@ -84,6 +85,7 @@
 (.addEventListener btn-imei "click" handle-imei)
 (.addEventListener btn-forward "click" handle-forward)
 (.addEventListener btn-msisdn "click" handle-msisdn)
+(.addEventListener a-sync "click" (fn[] (.reload js/location)))
 
 
 (set! (.-onload js/window) start)
