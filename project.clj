@@ -14,7 +14,7 @@
      [{:source-paths ["src/cljs"]
        :compiler
        {
-        :optimizations :advanced
+        :optimizations :whitespace
         :output-to "out/js/imei.js"
         ;:externs ["externs/jquery-1.8.js"]
         :pseudo-names true ;human
