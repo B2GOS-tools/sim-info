@@ -32667,7 +32667,5 @@ imei.core.handle_msisdn = function imei$core$handle_msisdn() {
 imei.core.btn_imei.addEventListener("click", imei.core.handle_imei);
 imei.core.btn_forward.addEventListener("click", imei.core.handle_forward);
 imei.core.btn_msisdn.addEventListener("click", imei.core.handle_msisdn);
-imei.core.a_sync.addEventListener("click", function() {
-  return location.reload();
-});
+imei.core.a_sync.addEventListener("click", imei.core.start);
 window.onload = imei.core.start;

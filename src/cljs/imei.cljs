@@ -85,7 +85,7 @@
 (.addEventListener btn-imei "click" handle-imei)
 (.addEventListener btn-forward "click" handle-forward)
 (.addEventListener btn-msisdn "click" handle-msisdn)
-(.addEventListener a-sync "click" (fn[] (.reload js/location)))
+(.addEventListener a-sync "click" start)
 
 
 (set! (.-onload js/window) start)
