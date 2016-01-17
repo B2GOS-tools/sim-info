@@ -1,26 +1,26 @@
-(defproject imei "0.1.0-SNAPSHOT"
-  :description "FIXME: write description"
-  :url "http://example.com/FIXME"
+(defproject imei "0.1.1"
+  :description "IMEI, ICCID, and other numbers of your SIM chip and your FirefoxOS phone"
+  :url "https://github.com/novia713/sim-info"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
     :dependencies [
-                    [org.clojure/clojure "1.7.0"]
-                    [org.clojure/clojurescript "1.7.145"]
+                    [org.clojure/clojure "1.8.0-RC5"]
+                    [org.clojure/clojurescript "1.7.228"]
                 ]
-  :plugins [[lein-cljsbuild "1.1.0"]]
+  :plugins [[lein-cljsbuild "1.1.2"]]
   :hooks [leiningen.cljsbuild]
   :cljsbuild
     {:builds
      [{:source-paths ["src/cljs"]
        :compiler
        {
-        :optimizations :whitespace
+        :optimizations :simple
         :output-to "out/js/imei.js"
         ;:externs ["externs/jquery-1.8.js"]
-        :pseudo-names true ;human
-        :pretty-print true ;human
-        :static-fns true   ;not optimized
-        :verbose true      ;debug
+        ;:pseudo-names true ;human
+        ;:pretty-print true ;human
+        ;:static-fns true   ;not optimized
+        ;:verbose true      ;debug
         :output-dir "out/js"
         :cache-analysis true
         ;:source-map "out/js/imei-debug.js" ;only for debug

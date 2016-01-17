@@ -1,8 +1,10 @@
 ; SIM Info
 ; (c) leandro@leandro.org
-; 20151025
+; 20160115
+;
 ;
 ; TODO: handle several SIMs
+; TODO: locate position in gugle maps with http://www.open-electronics.org/celltrack/cell.php?lac=16206
 
 (ns imei.core
   (:require
